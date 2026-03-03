@@ -1,7 +1,53 @@
 /* Seletor Universal - Remove margens e preenchimentos padrão */
 * {
-margin: 0; /* Remove margens padrão */
-padding: 0; /* Remove preenchimento padrão */
-box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo do tamanho */
-font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão */
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 0;
+    /* Remove preenchimento padrão */
+    box-sizing: border-box;
+    /* Inclui a borda e o preenchimento no cálculo do tamanho */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define a fonte padrão */
+}
+
+/* Estilo da barra de navegação principal */
+.bng-navbar {
+    background-color: #343a40;
+    /* Cor de fundo escura */
+    display: flex;
+    /* Coloca os elementos em linha */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    justify-content: space-between;
+    /* Espaço entre os blocos */
+    padding: 10px 20px;
+    /* Espaçamento interno da barra */
+    position: sticky;
+    /* Fixa a barra no topo ao fazer scroll */
+    top: 0;
+    /* A barra fica colada ao topo */
+}
+
+/* Estilo para os <div> internos da barra de navegação */
+.bng-navbar div {
+    display: flex;
+    align-items: center;
+    /* Coloca os elementos lado a lado */
+    /* Alinha-os verticalmente ao centro */
+}
+
+/* Estilo do logótipo na barra de navegação */
+.bng-navbar img {
+    /* Define a altura do logótipo */
+    height: 50px;
+    /* Espaço entre o logótipo e o texto */
+    margin-right: 10px;
+}
+
+/* Estilo do texto com o nome do ginásio */
+.bng-navbar h3 {
+    /* Aumenta o tamanho da letra */
+    font-size: 1.5em;
+    /* Cor do texto em cinza claro */
+    color: #dddddd;
 }
