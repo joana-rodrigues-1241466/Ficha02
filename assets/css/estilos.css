@@ -51,3 +51,49 @@
     /* Cor do texto em cinza claro */
     color: #dddddd;
 }
+
+/* Estilos para os links centrais da navegação */
+.container-navegacao {
+    /* Centraliza os links */
+    text-align: center;
+    /* Adiciona espaçamento interno */
+    padding: 20px;
+}
+
+.container-navegacao a {
+    /* Aumenta o tamanho da fonte dos links */
+    font-size: 1.5em;
+    /* Espaçamento horizontal entre os links */
+    margin: 0px 50px;
+    /* Remove o sublinhado */
+    text-decoration: none;
+    /* Define a cor dos links */
+    color: #dddddd;
+}
+
+.container-navegacao a:hover {
+    /* Muda a cor ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Estilos para o botão da Área Cliente */
+.nav-cliente a {
+    /* Cor do texto */
+    color: #dddddd;
+    /* Remove sublinhado */
+    text-decoration: none;
+    /* Tamanho da fonte */
+    font-size: 1.5em;
+    /* Espaçamento interno */
+    padding: 10px;
+    /* Bordas arredondadas */
+    border-radius: 5px;
+    /* Efeito suave na transição */
+    transition: background 0.3s;
+}
+
+/* Efeito ao passar o mouse no botão da Área Cliente */
+.nav-cliente a:hover {
+    /* Cor de fundo ao passar o mouse */
+    background-color: #0056b3;
+}
