@@ -97,3 +97,54 @@
     /* Cor de fundo ao passar o mouse */
     background-color: #0056b3;
 }
+
+/* Estilos para o Rodapé */
+.footer-container {
+    /* Ativa o layout flexível */
+    display: flex;
+    /* Cor de fundo escura */
+    background-color: #343a40;
+    /* Cor do texto */
+    color: white;
+    /* Espaçamento interno do rodapé */
+    padding: 40px 20px;
+    /* Permite que os itens se ajustem em ecrãs pequenos */
+    flex-wrap: wrap;
+    /* Fixa o rodapé no fundo da página */
+    position: fixed;
+    /* Alinha o rodapé à parte inferior */
+    bottom: 0;
+    /* Alinha o rodapé à esquerda */
+    left: 0;
+    /* Faz o rodapé ocupar toda a largura da página */
+    width: 100%;
+}
+
+.footer-section {
+    /* Faz com que as secções tenham larguras iguais */
+    flex: 1;
+    /* Define uma largura mínima para cada secção */
+    min-width: 250px;
+    /* Espaçamento interno */
+    padding: 10px;
+    /* Centraliza o conteúdo de cada bloco */
+    text-align: center;
+}
+
+.footer-section strong {
+    /* Tamanho da fonte para os títulos */
+    font-size: 1.2rem;
+    /* Ocupa toda a largura disponível */
+    display: block;
+    /* Espaçamento abaixo do título */
+    margin-bottom: 10px;
+    /* Cor clara para destaque */
+    color: #f8f9fa;
+}
+
+.footer-section p {
+    /* Tamanho padrão do texto */
+    font-size: 1rem;
+    /* Cor do texto em cinza claro */
+    color: #d6d6d6;
+}
