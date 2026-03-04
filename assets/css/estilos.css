@@ -148,3 +148,21 @@
     /* Cor do texto em cinza claro */
     color: #d6d6d6;
 }
+
+/* Texto Genérico */
+.container-texto-generico {
+    /* Ativa o layout flexível */
+    display: flex;
+    /* Centraliza os elementos horizontalmente */
+    justify-content: center;
+    /* Permite quebra de linha em ecrãs menores */
+    flex-wrap: wrap;
+    /* Espaço entre os elementos */
+    gap: 20px;
+    /* Espaçamento interno (superior/inferior e laterais) */
+    padding: 100px 40px;
+    /* Centraliza o texto dentro dos artigos */
+    text-align: center;
+    /* Garante altura mínima de uma janela (ecrã) */
+    min-height: 100vh;
+}
